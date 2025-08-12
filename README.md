@@ -24,7 +24,7 @@ The program takes weight and height as input, computes BMI, and categorizes the 
 ---
 1. Install Python
 Download and install Python from python.org.
-2. Clone This Repository
+2. Clone This Repository   https://github.com/Nayansh78/OIBSIP_PythonProgramming_tasknumber2
 3. Run The Program
    python bmicalculator.py
    
