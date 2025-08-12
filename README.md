@@ -1,49 +1,40 @@
-# OIBSIP_PythonProgramming_tasknumber2
-# 🧮 BMI Calculator (Python CLI)
+# ⚖️ Command-Line BMI Calculator
 
-This is a lightweight **command-line BMI calculator** written in Python.  
-You just enter your **weight (in kilograms)** and **height (in meters)**, and the program tells you your BMI along with the category it falls into — based on **WHO guidelines**.
-
----
-
-## ✨ What it does
-- Asks for your weight and height.
-- Calculates your BMI using: BMI = weight (kg) / (height (m)²) 
-
-- - Tells you if you’re:
-- Underweight
-- Normal weight
-- Overweight
-- Obese
-- Handles typos or non-numeric inputs gracefully.
-- Gives your BMI rounded to **two decimal places**.
+A simple *Python CLI tool* to calculate the *Body Mass Index (BMI)* based on user input for *weight (kg)* and *height (m)*.  
+It then classifies the result into categories such as *Underweight, **Normal weight, and **Overweight* according to standard BMI ranges.
 
 ---
 
-## 🛠 Requirements
-- **Python 3** installed.
+## 📌 Overview
+The *BMI Calculator* helps users quickly check their BMI and understand their weight status.  
+The program takes weight and height as input, computes BMI, and categorizes the result.
+
+**Formula:** BMI = weight (kg) / (height (m)²)
+
+## ✨ Features
+- Command-line based input/output
+- Calculates BMI using the standard formula
+- Classifies BMI into:
+  - Underweight
+  - Normal weight
+  - Overweight
+  - Obese
+- User-friendly prompts
 
 ---
+2.**Install Python**
+Download and install Python from python.org.
 
-## 🚀 How to use
-1. **Clone the repository**
-2. run the program **python bmicalculator.py**
-3. **Follow the prompts:
-Enter your weight in kilograms.
-Enter your height in meters.**
+**Tech Stack**
+-Python 3.6+
+-Standard Python libraries only (no extra installation required)
 
-| BMI            | Category      |
-| -------------- | ------------- |
-| Less than 18.5 | Underweight   |
-| 18.5 – 24.9    | Normal weight |
-| 25.0 – 29.9    | Overweight    |
-| 30 or more     | Obese         |
+**BMI Categories (WHO Standard)**
+BMI	Category
+Less than 18.5	Underweight
+18.5 – 24.9	Normal weight
+25.0 – 29.9	Overweight
+30 or more	Obese
 
-Author: Nayan Sharma
-GitHub: Nayansh78
-
-
-
-
-
-
+**Author: Nayan Sharma
+GitHub: Nayansh78**
